@@ -1,0 +1,140 @@
+* {
+    box-sizing: content-box;
+  }
+
+.navbar-brand {
+    margin-top: 0px;
+}  
+
+
+.menu-navbar {
+    background: yellow;
+}
+
+.jumbotron {
+    margin-top: -50px;
+    background: #000;    
+    padding-bottom: 100px;
+    padding-top: 150px;
+    background-image: url(/asset/jumbotron.png);
+    background-size: cover;
+    height: 350px;
+}
+
+.text-header-big {
+    background: brown;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.text-header-small {
+    background-color: burlywood;
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+
+.text-header-small > p {
+    margin: auto;
+}
+
+/* Section Rektor */
+.section-rektor {
+    background-color: rgb(132, 245, 126);
+    padding: 20px;
+    margin: auto;
+    /* align-items: center; */
+}
+
+.title-rektor {
+    background: rgb(229, 216, 216);
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+}
+
+.image-rektor {
+    display: block;
+    margin: auto;
+}
+
+.data-rektor {
+    text-align: center;
+}
+
+/* Section Data Kelulusan */
+.data-kelulusan {
+    background-color: rgb(255, 161, 231);
+    height: 500px;
+    background-image: url("/asset/data-kelulusan-bg.png");
+    background-size: cover;
+}
+
+.dtkelulusan-content {
+    padding-top: 120px;
+}
+
+/* Statistik Data Kelulusan */
+.statistik-data-kelulusan {
+    margin-top: 20px;
+}
+
+.title {
+    border-bottom: 8px solid black;
+    padding: 10px;
+    /* position: absolute; */
+    margin-left: 40%;
+}
+
+.menu-tab-name{
+    background: #F8FAFB;
+    color: 53555A;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.tab-active{
+    background: #64AC77;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+.menu-tab-icon {
+    margin-top: 10px;
+}
+
+.row-tab {
+    margin: auto;
+    margin-top: 40px;
+}
+
+.sub-menu {
+    width: 80%;
+    margin: auto;
+}
+
+.sub-menu-tab-name {
+    background-color: #fff;
+    color: #A2ABBE;
+    border-bottom: solid 2px rgb(225, 225, 225);
+}
+
+.sub-menu-tab-name-active {
+    background-color: #EBF8E6;
+    color: #53555A;
+    font-weight: bold;
+    border-bottom: solid 2px rgb(225, 225, 225);
+}
+
+.dropdown-option {
+    background-color: #fff;
+}
+
+
